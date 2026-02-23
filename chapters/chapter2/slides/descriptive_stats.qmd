@@ -1,0 +1,101 @@
+---
+title: "Descriptive Statistics"
+subtitle: "Chapter 2"
+author: "Pedro Cardoso-Leite"
+format:
+  revealjs:
+    theme: [default, ../../../assets/revealjs_themes/teaching.scss]
+    slide-number: true
+    chalkboard: true
+    revealjs-plugins:
+      - pointer
+---
+
+
+
+# How to describe data?
+
+## Zooming in...
+
+ - size of the data
+ - shape of the data table
+ - types of columns (data types)
+ - distribution of values within a column
+ - relationships between columns
+
+
+# Exercise
+
+##
+
+Have a look at the "describe-data" folder in the sem-labs repository:
+
+[https://github.com/xcit-courses/sem-labs](https://github.com/xcit-courses/sem-labs)
+
+
+<br>
+
+Answer the first two questions:
+
+ - size of the data
+ - shape of the data table
+
+
+
+
+
+# Descriptive Statistics
+
+
+
+## Types of variables / measurement levels
+
+::: {.columns}
+
+::: {.column width="70%"}
+
+- String
+- Boolean/Logical
+- Double/Float/Numeric/Integer
+- Ordered Categorical/Factor
+- UnOrdered Categorical/Factor
+- ...
+
+
+:::
+
+::: {.column width="30%"}
+
+- Nominal
+- Ordinal
+- Interval
+- Ratio
+
+:::
+:::
+
+
+
+
+## Describing 1 variable
+
+
+- Central Tendency
+- Variability
+- Other
+
+
+
+
+## Relationship between two variables
+
+
+
+# Exercises
+
+ - describe-data/compute-basic-stats.qmd
+ - describe-data/describe-data.qmd
+
+
+
+

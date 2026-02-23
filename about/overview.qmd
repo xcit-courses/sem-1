@@ -1,0 +1,38 @@
+---
+title: "Course Overview"
+---
+
+
+## Description
+
+Structural Equation Modeling (SEM) is a powerful multivariate statistical technique that allows researchers to test complex theoretical models. 
+
+This course covers the fundamentals required to understand SEM; it is taught at the Unviersity of Luxembourg as `MAPEA-15 - SEM - Structural Equation Models I`.
+
+
+
+## When and Where
+
+{{< include schedule_table.md >}}
+
+
+## Learning Objectives
+
+By the end of this course, students will be able to:
+
+1. Understand the theoretical foundations of SEM
+2. Understand and run simple and multiple linear regressions in R
+3. Understand and run Exploratory (EFA) and Confirmatory (CFA) Factor analysis in R
+4. Understand and run Mediation and Moderation analysis in R
+5. Understand and implement a simple SEM using lavaan in R
+6. Interpret and report SEM results
+
+
+# Prerequisites
+
+- Familiarity with R programming
+- Introductory statistics
+
+## Course Structure
+
+The course is organized in chapters covering specific topics. It also includes practical exercises in R.

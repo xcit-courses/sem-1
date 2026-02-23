@@ -1,0 +1,24 @@
+---
+title: "Chapter 1: Course Introduction"
+---
+
+# Introduction to Structural Equation Modeling
+
+## Overview
+
+This chapter presents the objectives and logistics of the course. It introduces Structural Equation Modeling (SEM) and provides a few examples. 
+
+
+## Learning Objectives
+
+After completing this chapter, you will be able to:
+
+- Navigate the course content
+- Explain what SEM is and why it is useful
+- Identify the basic components of SEM models
+
+
+## Lecture Slides
+
+- [Introduction to SEM](slides/intro_sem.qmd)
+

@@ -1,0 +1,57 @@
+---
+title: "Syllabus"
+---
+
+# Syllabus
+
+## Course Information
+
+**Course Title:** Structural Equation Modeling: Introduction 
+**Instructor:** Pedro Cardoso-Leite  
+
+
+
+
+
+
+
+## Course Schedule
+
+
+### Chapter 1: Introduction to SEM
+
+### Chapter 2: Descriptive Statistics
+
+### Chapter 3: Probability Distributions
+
+### Chapter 4: Simple Linear Regression
+
+### Chapter 5: Multiple Linear Regression
+
+### Chapter 6: Moderation and Mediation
+
+### Chapter 7: Factor Analysis
+
+### Chapter 8: Path Analysis
+
+### Chapter 9: Structural Equation Modeling
+
+### Chapter 10: Examples & Exercises
+
+
+
+## Grading
+
+- Participation & Exercises 25%
+- Final Exam: 75%
+
+## Required Materials
+
+- R (latest version)
+- RStudio (latest version)
+- lavaan package
+- Course materials available on this website
+
+## Recommended Textbooks
+
+see Resources

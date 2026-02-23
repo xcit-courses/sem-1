@@ -1,0 +1,185 @@
+---
+title: "Chapter 2: Descriptive Statistics and Data Exploration"
+---
+
+# Descriptive Statistics and Data Exploration
+
+## Overview
+
+Before conducting SEM analyses, it is crucial to understand your data thoroughly. This chapter covers descriptive statistics and data exploration techniques that form the foundation for all subsequent analyses.
+
+## Learning Objectives
+
+After completing this chapter, you will be able to:
+
+- Describe datasets systematically using appropriate statistics
+- Calculate and interpret measures of central tendency and variability
+- Understand covariance and correlation
+- Create and interpret correlation matrices
+- Screen data for potential problems (outliers, non-normality, missing data)
+- Prepare data for SEM analysis
+
+## Lecture Slides
+
+- [Descriptive Statistics](slides/descriptive_stats.qmd)
+
+## Topics Covered
+
+### Understanding Your Data
+
+**The Course Dataset:**
+
+- Research context and variables
+- Sample size and data structure
+- Variable types: continuous, ordinal, categorical
+- Missing data patterns and strategies
+
+### Measures of Central Tendency
+
+**Mean, Median, Mode:**
+
+- Definitions and calculation
+- When to use each measure
+- Effect of outliers on different measures
+- Interpretation in research context
+
+**In R:**
+
+```r
+# Calculate mean
+mean(data$variable)
+
+# Calculate median
+median(data$variable)
+
+# Calculate mode (using table)
+table(data$variable)
+```
+
+### Measures of Variability
+
+**Variance and Standard Deviation:**
+
+- Why variability matters for SEM
+- Population vs. sample statistics
+- Interpretation and reporting
+
+**Range and Interquartile Range:**
+
+- Understanding spread
+- Identifying outliers using IQR method
+
+**In R:**
+
+```r
+# Variance
+var(data$variable)
+
+# Standard deviation
+sd(data$variable)
+
+# Quantiles and IQR
+quantile(data$variable)
+IQR(data$variable)
+```
+
+### Bivariate Relationships
+
+**Covariance:**
+
+- Definition: how two variables vary together
+- Interpretation challenges (scale-dependent)
+- Mathematical formula
+
+**Correlation:**
+
+- Standardized measure of association
+- Pearson, Spearman, and Kendall correlations
+- When to use each type
+- Correlation ≠ causation
+
+**Visualizing Relationships:**
+
+```r
+# Scatterplot
+plot(data$x, data$y)
+
+# Correlation matrix
+cor(data[, c("var1", "var2", "var3")])
+
+# Visualize correlation matrix
+library(corrplot)
+corrplot(cor(data), method = "circle")
+```
+
+### Data Screening for SEM
+
+**Checking for Outliers:**
+
+- Visual methods: boxplots, scatterplots
+- Numerical methods: z-scores, IQR
+- Deciding what to do with outliers
+
+**Assessing Distributions:**
+
+- Skewness and kurtosis
+- Visual assessment: histograms, Q-Q plots
+- Normality tests (with caution)
+
+**Multicollinearity:**
+
+- Correlation matrix inspection
+- Variance Inflation Factor (VIF)
+- Implications for SEM
+
+**In R:**
+
+```r
+# Boxplot for outliers
+boxplot(data$variable)
+
+# Z-scores
+scale(data$variable)
+
+# Skewness and kurtosis
+library(psych)
+describe(data)
+
+# Histogram and Q-Q plot
+hist(data$variable)
+qqnorm(data$variable)
+qqline(data$variable)
+```
+
+## Exercises
+
+1. **Dataset Description**
+   - Load the alexithymia dataset
+   - Report sample size, number of variables, variable types
+   - Check for missing data and describe patterns
+
+2. **Manual Calculations**
+   - Calculate mean, variance, and standard deviation by hand for a small variable
+   - Verify your calculations using R functions
+   - Calculate covariance and correlation between two variables manually
+
+3. **Visual Exploration**
+   - Create histograms for all continuous variables
+   - Generate a correlation matrix and visualize it
+   - Create scatterplots for key variable pairs
+
+4. **Data Screening**
+   - Identify potential outliers using boxplots and z-scores
+   - Assess normality using histograms and Q-Q plots
+   - Check for multicollinearity issues
+
+5. **Descriptive Table**
+   - Create a comprehensive descriptive statistics table
+   - Include: n, mean, SD, min, max, skewness, kurtosis
+   - Format the table suitable for publication
+
+## Additional Resources
+
+- Field, A., Miles, J., & Field, Z. (2012). *Discovering Statistics Using R*, Chapters 4-5
+- [R Graphics Cookbook](https://r-graphics.org/) - for visualization
+- Tabachnick, B. G., & Fidell, L. S. (2013). *Using Multivariate Statistics*, Chapter 4

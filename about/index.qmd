@@ -1,0 +1,30 @@
+---
+title: "Structural Equation Modeling"
+---
+
+
+This is the (work in progress) course website for "Structural Equation Modeling".
+
+In this course we will cover the following content:
+
+- [Chapter 1: Introduction to SEM](../chapters/chapter1/chapter1.qmd)
+
+Each chapter contains links to slides and possibly other resources.
+
+## Course Overview
+
+This course provides a comprehensive introduction to Structural Equation Modeling (SEM). You will learn:
+
+- Fundamental concepts of SEM
+- Linear regression
+- Path analysis and mediation
+- Factor Analysis
+
+## Getting Started
+
+Navigate through the course materials using the sidebar on the left. Each chapter may include:
+
+- Lecture notes
+- slides
+- Exercises
+- Additional resources
