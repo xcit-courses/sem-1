@@ -1,6 +1,6 @@
 ---
 title: "Descriptive Statistics"
-subtitle: "Chapter 2"
+subtitle: ""
 author: "Pedro Cardoso-Leite"
 format:
   revealjs:
