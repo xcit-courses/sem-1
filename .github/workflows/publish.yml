@@ -33,7 +33,12 @@ jobs:
 
       - name: Install R dependencies
         run: |
-          install.packages(c("rmarkdown", "knitr"))
+          install.packages(c(
+            "rmarkdown", "knitr",
+            "ggplot2", "dplyr",
+            "lm.beta", "car",
+            "effectsize", "lavaan", "semPlot"
+          ))
         shell: Rscript {0}
 
       - name: Render Quarto Project
