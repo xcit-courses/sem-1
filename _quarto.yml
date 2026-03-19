@@ -42,8 +42,8 @@ website:
             href: chapters/chapter1/chapter1.qmd
           - text: "2 - Descriptive Statistics"
             href: chapters/chapter2/chapter2.qmd
-          # - text: "3 - Probability Distributions"
-          #   href: chapters/chapter3/chapter3.qmd
+          - text: "3 - Probability Distributions"
+            href: chapters/chapter3/chapter3.qmd
           # - text: "4 - Simple Linear Regression"
           #   href: chapters/chapter4/chapter4.qmd
           # - text: "5 - Multiple Linear Regression"

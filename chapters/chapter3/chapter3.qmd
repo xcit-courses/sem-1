@@ -1,0 +1,22 @@
+---
+title: "Chapter 3: Probability Distributions and Statistical Foundations"
+---
+
+# Probability Distributions and Statistical Foundations
+
+## Overview
+
+Understanding probability distributions is essential for statistics (and for SEM). This chapter covers the fundamentals of probability distributions and how they are used.
+
+## Learning Objectives
+
+- Define random variables and probability distributions
+- Understand and work with the normal distribution
+- Identify key probability distributions used in SEM (chi-square, t, F)
+- Explain the Central Limit Theorem and its implications
+- Use probability functions in R
+
+
+## Lecture Slides
+
+- [Probability Distributions](slides/probability_distributions.qmd)
