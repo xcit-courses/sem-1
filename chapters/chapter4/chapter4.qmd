@@ -1,0 +1,21 @@
+---
+title: "Chapter 4: Simple Linear Regression"
+---
+
+# Simple Linear Regression
+
+## Overview
+
+Linear regression is the foundation of SEM. This chapter introduces simple linear regression with one predictor, covering the theory, assumptions, estimation, and interpretation that will extend to more complex SEM models.
+
+## Learning Objectives
+
+- Explain what a linear model is and interpret its parameters
+- Fit simple linear regression models in R
+- Interpret regression output (coefficients, R², p-values)
+- Check regression assumptions using diagnostic plots
+
+## Lecture Slides
+
+- [Simple Linear Regression](slides/simple_regression.qmd)
+

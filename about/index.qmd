@@ -10,7 +10,7 @@ In this course we will cover the following content:
 - [Chapter 1: Introduction to SEM](../chapters/chapter1/chapter1.qmd)
 - [Chapter 2: Descriptive statistics](../chapters/chapter2/chapter2.qmd)
 - [Chapter 3: Probability distributions](../chapters/chapter3/chapter3.qmd)
-
+- [Chapter 4: Simple Linear Regression](../chapters/chapter4/chapter4.qmd)
 
 Each chapter contains links to slides and possibly other resources.
 
